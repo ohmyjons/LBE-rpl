@@ -15,3 +15,20 @@
     background-color: #d1d1d1;
     border: 1px solid transparent;
 }
+
+/* .my-card:hover{
+    transform: scale(0.8);
+} */
+
+.my-card a{
+    transition: background .5s ease-in;
+}
+
+.my-card: a{
+    background: red;
+}
+
+.my-flex{
+    display: flex;
+    justify-content: flex-start;
+}
